@@ -1,0 +1,38 @@
+.tovar-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: fit-content;
+  /* border-radius: 10px;
+    background: #b1c3ff; */
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  /* box-shadow: 12px 12px 46px #54565e, -12px -12px 46px #ffffff; */
+  /* margin-right: 10px; */
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 40px;
+}
+
+.tovar-card__title {
+  width: 45%;
+}
+.buttofav {
+  margin-left: 10%; /* Пример значения отступа */
+}
+
+.text-tovara {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  /* align-items: ; */
+}

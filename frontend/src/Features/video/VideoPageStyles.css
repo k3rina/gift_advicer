@@ -1,0 +1,31 @@
+.video-background {
+  position: relative; /* Изменяем на relative */
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Стили для текста "Начать подбор" */
+.video-background div {
+  position: absolute; /* Добавляем абсолютное позиционирование */
+  top: 50%; /* Перемещаем вверх на 50% высоты родительского блока */
+  left: 50%; /* Перемещаем вправо на 50% ширины родительского блока */
+  transform: translate(-50%, -50%); /* Центрируем по горизонтали и вертикали */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-background a {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
